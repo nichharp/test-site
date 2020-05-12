@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'wallpoet';
+  src: url("assets/Wallpoet-Regular.ttf") format("truetype");
+}
+
+
+@import "../node_modules//bootstrap/scss/bootstrap-grid.scss";
+
+$grid-columns:      12;
+$grid-gutter-width: 30px;
+
+$grid-breakpoints: (
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 576px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 1200px,
+  // Extra large screen / wide desktop
+  xl: 1440px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 1080px,
+  xl: 1300px
+);
+
+@import 'styles/app';
+@import 'styles/header';
+
+/* // START */
+body {
+  min-height: 100vh;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,31,1) 58%, rgba(1,68,82,1) 100%);
+  background-repeat: no-repeat;
+}

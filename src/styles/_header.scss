@@ -1,0 +1,15 @@
+.header {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-bottom: 10px;   
+    }
+
+    &__logo {
+        font-family: wallpoet;
+        font-size: calc(40px + 2vmin);
+        color: #fff;
+        text-decoration: none;
+    }
+}
